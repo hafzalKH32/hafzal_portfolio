@@ -1,0 +1,52 @@
+name: hafzal_portfolio
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+  animated_text_kit: ^4.2.2
+  lottie: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_animate: ^4.5.2
+  particles_flutter: ^0.1.4
+  shimmer: ^3.0.0
+  glassmorphism: ^3.0.0
+  animated_background: ^2.0.0
+  curved_navigation_bar: ^1.0.6
+  flutter_glow: ^0.3.2
+  neon: ^0.1.0
+  liquid_progress_indicator: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+#  fonts:
+#    - family: Cormorant Garamond
+#      fonts:
+#        - asset: fonts/CormorantGaramond-Regular.ttf
+#        - asset: fonts/CormorantGaramond-Bold.ttf
+#          weight: 700
+#        - asset: fonts/CormorantGaramond-SemiBold.ttf
+#          weight: 600
+#        - asset: fonts/CormorantGaramond-Italic.ttf
+#          style: italic
